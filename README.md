@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Contador em React 🔄
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples em React que demonstra um contador, com suporte para modos claro e escuro.
 
-## Available Scripts
+![Demonstracao](https://github.com/LauraBarauna/Contador/blob/main/src/assets/gif-contador.gif)
 
-In the project directory, you can run:
+## Aprendizados 📚
+Neste projeto, desafiei meus conhecimentos em React e aprimorei minhas habilidades em CSS (especificamente com Flexbox). Os principais aprendizados foram:
 
-### `npm start`
+- Implementação de lógica para aumentar/diminuir o número quando o botão é clicado.
+- Melhor compreensão da estrutura básica do React.
+- Estilização com CSS e reflexo da lógica do React nos estilos com a mudança de tema.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Desafios enfrentados 🤔
+Durante o desenvolvimento deste projeto, enfrentei várias dificuldades no início, algumas das principais foram:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Implementação da Lógica de Contador:** Inicialmente, tive dificuldades em implementar a lógica para aumentar e diminuir o número quando os botões correspondentes eram clicados. Aprender a gerenciar o estado no React e atualizar a UI de acordo foi um desafio significativo.
 
-### `npm test`
+2. **Integração entre CSS e Lógica do React para Temas:** Integrar a lógica do React com as mudanças de estilo CSS quando o tema era alternado (modo claro e escuro) também foi complexo. Garantir que as mudanças no estado do aplicativo refletissem corretamente na aparência visual exigiu ajustes detalhados na estrutura do projeto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Compreensão da Estrutura Básica do React:** No início, a estrutura e o fluxo de trabalho do React não eram completamente familiares para mim. Foi necessário um tempo para compreender adequadamente como organizar componentes, gerenciar estados e lidar com eventos.
 
-### `npm run build`
+Depois de pesquisar em documentações e na internet, consegui finalizar esse projeto e aprender bastante, até porque com erro vem aprendizagem!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Melhorias Futuras 🚀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Adição de suporte para mudança de número através do teclado.
+- Refatoração do código para melhor legibilidade e manutenibilidade.
+- Inclusão de mais recursos visuais interativos, como animações nos botões.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Estou animada para voltar e implementar essas melhorias no futuro!
 
-### `npm run eject`
+### Autores 🧑‍💻
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [@LauraBarauna](https://github.com/LauraBarauna)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Stack utilizada 🛠️
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Front-end:** React
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Como Executar ▶️
 
-## Learn More
+Para executar este projeto localmente, siga os passos abaixo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1.Clone o repositório.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2.Instale as dependências usando npm install.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3.Inicie o servidor de desenvolvimento com npm start.
