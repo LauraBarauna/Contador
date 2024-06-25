@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+body {
+    background-color: #1B2129;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease;
+}
+
+header button.button{
+    font-size: 4.5rem;
+    display: flex;
+    margin-left: 151px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+main div.box{
+    width: 150%;
+    max-width: 35.0rem;
+    height: 60.0rem; 
+    background-image: linear-gradient(#BD3B53, #BD3B53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5rem;
+    box-shadow: 0.5rem 0.5rem 1.0rem black;
+    border: 0.1rem solid black;
+    padding: 2rem;
+    
+}
+
+main div.box h1{
+    font-size: 15.0rem;
+    color: #1B2129;
+    margin-top: -4.8rem;
+    cursor: pointer;
+    transition: color 0.6s ease;
+}
+
+main div.box h1:hover{
+    color: white;
+
+}
+
+main div.box div.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2.0rem;
+    margin-top: 60px;
+    
+}
+
+main div.box div.buttons button{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #C93752;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 21.5rem;
+    height: 5.0rem;
+    border-radius: 5.0rem;
+    background-color: #1B2129;
+    border: none;
+    box-shadow: 0.2rem 0.2rem 0.3rem black;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+    
+}
+
+
+
+
+main div.box div.buttons button:hover{
+    background-color: #BD3B53;
+    border: 0.1rem solid black;
+    color: #1B2129;
+}
+
+
+
+@media (max-width: 768px){
+    header button.button{
+        margin-left: 8.4rem;
+        font-size: 3.5rem;
+    }
+    
+    main div.box{
+        height: auto;
+        width: 20.0rem;
+    }
+
+    main div.box h1{
+        font-size: 10rem;
+        margin-top: 1.0rem;
+        margin-bottom: -1.0rem;
+    }
+
+    main div.box div.buttons{
+        margin-top: 3.5rem;
+    }
+    
+    main div.box div.buttons button{
+        width: 13.0rem;
+        height: 3.5rem;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+/* Tema claro */
+
+div.light header div.theme button{
+    background-color: transparent;
+}
+
+body.light {
+    background-color: #C8D6EC;
+}
+
+main div.box.light {
+    background-image: radial-gradient(#E1677D , #D64D66);
+}
+
+main div.box.light h1 {
+    color: #C8D6EC;
+}
+
+main div.box.light div.buttons button {
+    background-color: #C8D6EC;
+    color: #C93752;
+}
+
+main div.box.light div.buttons button:hover{
+    background-color: #D64D66;
+    color: #1B2129;
+    border: 0.1rem solid #1B2129
+}
+
+main div.box.light h1:hover{
+    color: #1B2129;
+} 
+
+/* Dark */
+
+div.dark header div.theme button{
+    background-color: transparent;
+}
+
+body.dark {
+    background-color: #1B2129;
+}
+
+main div.box.dark {
+    background-color: #1B2129;
+    background-image: linear-gradient(#BD3B53, #BD3B53);
+}
+
+main div.box.dark h1 {
+    color: #1B2129;
+}
+
+main div.box.dark h1:hover{
+    color: #C8D6EC;
+}
+
+main div.box.dark div.buttons button {
+    background-color: #1B2129;
+    color: #C93752;
+}
+
+
+main div.box.dark div.buttons button:hover{
+    background-color: #C93752;
+    color: #C8D6EC;
+
+}
